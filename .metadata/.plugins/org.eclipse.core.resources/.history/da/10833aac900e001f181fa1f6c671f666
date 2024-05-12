@@ -1,0 +1,15 @@
+package com.in28minutes.oops.level2;
+
+public class FanRunner {
+
+	public static void main(String[] args) {
+
+		Fan fan = new Fan("Manufacture 1", 0.34567, "Green");
+
+		fan.isOn(false);
+
+		System.out.println(fan);
+
+	}
+
+}
