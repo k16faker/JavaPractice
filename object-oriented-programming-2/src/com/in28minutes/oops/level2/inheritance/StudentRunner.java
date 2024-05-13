@@ -4,11 +4,27 @@ public class StudentRunner {
 
 	public static void main(String[] args) {
 
-		Student student = new Student();
-		student.setName("Ranga");
-		student.setEmail("in28minutes@gmail.com");
+//		Student student = new Student();
+//		student.setName("Ranga");
+//		student.setEmail("in28minutes@gmail.com");
+//		System.out.println(student.getName());
+//
+//		Person person = new Person();
+//		person.setName("Ranga");
+//		person.setEmail("ranga@in28minutes.com");
+//		person.setPhoneNumber("123-456-789");
+//		String value = person.toString();
+//		System.out.println(value);
+//		System.out.println(person);
 
-		System.out.println(student.getName());
+		Employee employee = new Employee("Ranga", "Programmer Analyst");
+		// employee.setName("Ranga");
+		employee.setEmail("ranga@in28minutes.com");
+		employee.setPhoneNumber("123-456-789");
+		employee.setEmployeeGrade('A');
+		employee.setTitle("Programmer Analyst");
+
+		System.out.println(employee);
 
 	}
 

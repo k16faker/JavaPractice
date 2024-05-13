@@ -1,0 +1,13 @@
+package com.in28minutes.oops.level2.inheritance;
+
+import java.math.BigDecimal;
+
+public class Employee extends Person {
+	
+	private String title;
+	private String employerName;
+	private char employeeGrade;
+	private BigDecimal salary;
+	
+
+}
