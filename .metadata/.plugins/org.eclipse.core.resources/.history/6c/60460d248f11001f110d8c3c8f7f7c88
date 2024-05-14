@@ -1,0 +1,20 @@
+package com.in28minutes.oops.level2;
+
+public abstract class AbstravtRecipe {
+
+	public void execute() {
+		getReady();
+		doTheDish();
+		cleanup();
+	}
+
+	abstract void getReady();
+
+	abstract void doTheDush();
+
+	abstract void cleanup();
+
+	// prepare
+	// recipe
+	// cleanup
+}
