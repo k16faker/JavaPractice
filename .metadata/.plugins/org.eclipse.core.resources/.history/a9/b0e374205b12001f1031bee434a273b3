@@ -1,0 +1,15 @@
+package com.in28minutes.oops.level2.interfaces;
+
+interface Flyable {
+	void fly();
+}
+
+public class FlyableRunner {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
