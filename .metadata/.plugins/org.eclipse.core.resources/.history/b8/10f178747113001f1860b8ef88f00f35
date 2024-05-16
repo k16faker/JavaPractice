@@ -18,18 +18,11 @@ class Cat extends Animal {
 	}
 }
 
-class Bat extends Animal {
-	@Override
-	public void bark() {
-		System.out.println("Ziiiiing");
-	}
-}
-
 public class AnimalRunner {
 
 
 	public static void main(String[] args) {
-		Animal[] animals = { new Cat(), new Dog(), new Bat() };
+		Animal[] animals = { new Cat(), new Dog() };
 
 		for (Animal animal : animals) {
 			animal.bark();
