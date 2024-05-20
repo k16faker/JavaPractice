@@ -1,8 +1,0 @@
-package com.in28minutes.oops.level2.inheritance;
-
-public class Person {
-
-	private String name;
-	private String email;
-	private String phoneNumber;
-}
